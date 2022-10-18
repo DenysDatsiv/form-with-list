@@ -1,0 +1,121 @@
+.Full_Info {
+  color: #000;
+  font-weight: 700;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+.FormResult:hover {
+  transform: translateY(-5px);
+}
+
+.container {
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 10px 10px;
+  padding: 2px 2px;
+}
+
+.Btn_remove {
+  width: 15%;
+  max-width: 13em;
+  height: 35px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-left: auto;
+}
+
+.header {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.FormResult {
+  background: #282c34;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  margin: 20px 20px;
+  padding: 5px 5px;
+  transition: all 0.3s ease 0s;
+}
+
+.Result_text {
+  margin-left: 8px;
+}
+
+@media (min-width: 580px) {
+  .Full_result_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .FormResult {
+    max-height: 13.9em;
+  }
+  .container {
+    max-height: 10em;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1059px) {
+  .Full_result_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container {
+    max-height: 10.4em;
+  }
+
+  .Result_text {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1060px) and (max-width: 1070px) {
+  .container {
+    max-height: 15em;
+  }
+
+  .Result_text {
+    font-size: 12.3px;
+  }
+}
+
+@media (min-width: 1060px) {
+  .Full_result_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container {
+    max-height: 15.4em;
+  }
+
+  .Result_text {
+    font-size: 13.3px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 940px) {
+  .Full_result_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

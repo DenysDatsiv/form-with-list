@@ -1,0 +1,59 @@
+.Input_block {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.Tag_name {
+  color: #fff;
+  margin-left: 39px;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: "Merriweather";
+  margin-bottom: 0px;
+}
+.Tag_name span {
+  color: rgb(49, 246, 0);
+}
+
+.Form_input {
+  width: 100%;
+  max-width: 17em;
+  padding: 10px 0;
+  justify-content: center;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  margin: 0 auto;
+  display: flex;
+}
+.Error {
+    color: red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+@media (max-width: 260px) {
+  .Tag_name {
+    margin-left: 29px;
+  }
+  .Form_input {
+    max-width: 10em;
+  }
+}
+@media (min-width: 260px) and (max-width: 340px) {
+  .Form_input {
+    max-width: 13em;
+  }
+  .Tag_name {
+    margin-left: 19px;
+  }
+}
+@media (min-width: 800px) {
+  .Form_input {
+    max-width: 17em;
+    min-width: 6px;
+  }
+}
